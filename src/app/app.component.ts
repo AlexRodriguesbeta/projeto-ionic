@@ -12,7 +12,7 @@ export class AppComponent {
 
    paginas : any[]  = [ 
     {titulo: 'Home', endereco: '/home', icone: 'home'},
-    {titulo: 'List', endereco: '/list', icone: 'list'},
+    {titulo: 'Header/Footer', endereco: '/list', icone: 'list'},
     {titulo: 'Página2', endereco: '/pagina2', icone: 'albums'}
   ]; 
   
