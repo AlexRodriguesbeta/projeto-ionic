@@ -13,7 +13,9 @@ export class AppComponent {
    paginas : any[]  = [ 
     {titulo: 'Home', endereco: '/home', icone: 'home'},
     {titulo: 'Header/Footer', endereco: '/list', icone: 'list'},
-    {titulo: 'Página2', endereco: '/pagina2', icone: 'albums'}
+    {titulo: 'Página2', endereco: '/pagina2', icone: 'albums'},
+    {titulo: 'GRIDS', endereco: '/grids', icone: 'list'},
+    {titulo: 'TABS',  endereco: '/tabs', icone: 'alert'}
   ]; 
   
   //public appPages = [

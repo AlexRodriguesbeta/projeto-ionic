@@ -17,7 +17,27 @@ const routes: Routes = [
   },
   { 
     path: 'pagina2', 
-    loadChildren: './pagina2/pagina2.module#Pagina2PageModule' }
+    loadChildren: './pagina2/pagina2.module#Pagina2PageModule' },
+  { 
+    path: 'grids', 
+    loadChildren: './grids/grids.module#GridsPageModule' 
+  },
+  { 
+    path: 'tabs', 
+    loadChildren: './tabs/tabs.module#TabsPageModule' 
+  },
+  { 
+    path: 'tab1', 
+    loadChildren: './tab1/tab1.module#Tab1PageModule' 
+  },
+  { 
+    path: 'tab2', 
+    loadChildren: './tab2/tab2.module#Tab2PageModule' 
+  },
+  { 
+    path: 'tab3', 
+    loadChildren: './tab3/tab3.module#Tab3PageModule'
+   }
 ];
 
 @NgModule({
