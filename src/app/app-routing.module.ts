@@ -41,7 +41,11 @@ const routes: Routes = [
   { 
     path: 'actionsheet', 
     loadChildren: './actionsheet/actionsheet.module#ActionsheetPageModule'
-   }
+   },
+  {
+     path: 'alert', 
+     loadChildren: './alert/alert.module#AlertPageModule' 
+  }
 ];
 
 @NgModule({

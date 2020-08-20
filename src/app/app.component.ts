@@ -16,7 +16,8 @@ export class AppComponent {
     {titulo: 'Página2', endereco: '/pagina2', icone: 'albums'},
     {titulo: 'GRIDS', endereco: '/grids', icone: 'list'},
     {titulo: 'TABS',  endereco: '/tabs', icone: 'alert'}, 
-    {titulo: 'ActionSheet',  endereco: '/actionsheet', icone: 'albums'}
+    {titulo: 'ActionSheet',  endereco: '/actionsheet', icone: 'albums'},
+    {titulo: 'Ex. Alerts',  endereco: '/alert', icone: 'albums'}
   ]; 
   
   //public appPages = [
