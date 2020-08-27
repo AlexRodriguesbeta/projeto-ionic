@@ -17,7 +17,8 @@ export class AppComponent {
     {titulo: 'GRIDS', endereco: '/grids', icone: 'list'},
     {titulo: 'TABS',  endereco: '/tabs', icone: 'alert'}, 
     {titulo: 'ActionSheet',  endereco: '/actionsheet', icone: 'albums'},
-    {titulo: 'Ex. Alerts',  endereco: '/alert', icone: 'albums'}
+    {titulo: 'Ex. Alerts',  endereco: '/alert', icone: 'albums'},
+    {titulo: 'Buttons',  endereco: '/buttons', icone: 'alert'}
   ]; 
   
   //public appPages = [

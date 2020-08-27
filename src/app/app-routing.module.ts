@@ -45,6 +45,10 @@ const routes: Routes = [
   {
      path: 'alert', 
      loadChildren: './alert/alert.module#AlertPageModule' 
+  },
+  { 
+    path: 'buttons', 
+    loadChildren: './buttons/buttons.module#ButtonsPageModule' 
   }
 ];
 
