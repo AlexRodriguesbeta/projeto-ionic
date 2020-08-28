@@ -8,6 +8,8 @@ import { NavController } from '@ionic/angular';
 })
 export class ButtonsPage implements OnInit {
 
+  habilitado : boolean = true; 
+
   constructor(private navCtrl : NavController) { }
 
   ngOnInit() {
