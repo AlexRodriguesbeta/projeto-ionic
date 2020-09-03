@@ -49,6 +49,10 @@ const routes: Routes = [
   { 
     path: 'buttons', 
     loadChildren: './buttons/buttons.module#ButtonsPageModule' 
+  },
+  { 
+    path: 'check-radio',
+     loadChildren: './check-radio/check-radio.module#CheckRadioPageModule'
   }
 ];
 

@@ -18,7 +18,8 @@ export class AppComponent {
     {titulo: 'TABS',  endereco: '/tabs', icone: 'alert'}, 
     {titulo: 'ActionSheet',  endereco: '/actionsheet', icone: 'albums'},
     {titulo: 'Ex. Alerts',  endereco: '/alert', icone: 'albums'},
-    {titulo: 'Buttons',  endereco: '/buttons', icone: 'alert'}
+    {titulo: 'Buttons',  endereco: '/buttons', icone: 'alert'},
+    {titulo: 'CheckBox/RadioButton',  endereco: '/check-radio', icone: 'alert'}
   ]; 
   
   //public appPages = [

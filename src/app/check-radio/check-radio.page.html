@@ -1,0 +1,47 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Exemplo CheckBox e RadioButton
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>ION-CHECKBOX</h3>
+  <ion-item>
+    <ion-label>Padrao</ion-label>
+    <ion-checkbox color="danger">Padrão</ion-checkbox>
+  </ion-item>
+  <ion-item>
+    <ion-label>Desabilitado</ion-label>
+    <ion-checkbox color="success" checked = "true" disabled="true">Desabilitado</ion-checkbox>
+  </ion-item>
+
+  <h3>Meses</h3>
+  <ion-item *ngFor= "let mes of meses">
+    <ion-label>{{mes.nomeMes}}</ion-label>
+    <ion-checkbox checked= {{mes.marcado}} [(ngModel)]="mes.marcado"></ion-checkbox>
+  </ion-item>
+  <ion-button (click) ="exibirMeses()">Exibe mês marcado</ion-button>
+
+  <h3>ION-RADIO</h3>
+  <ion-list>
+    <ion-radio-group>
+      <ion-list-header>
+        <ion-label>Sexo</ion-label>
+      </ion-list-header>
+      <ion-item>
+        <ion-label>Masculino</ion-label>
+        <ion-radio slot="start" color="success"></ion-radio>
+      </ion-item>
+      <ion-item>
+        <ion-label>Feminino</ion-label>
+        <ion-radio slot="start" checked="true" color="danger"></ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  </ion-list>
+
+</ion-content>
