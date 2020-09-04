@@ -21,7 +21,8 @@ export class AppComponent {
     {titulo: 'Buttons',  endereco: '/buttons', icone: 'alert'},
     {titulo: 'CheckBox/RadioButton',  endereco: '/check-radio', icone: 'alert'},
     {titulo: 'DateTime',  endereco: '/datetime', icone: 'alert'},
-    {titulo: 'fab',  endereco: '/fab', icone: 'alert'}
+    {titulo: 'fab',  endereco: '/fab', icone: 'alert'},
+    {titulo: 'input-textArea',  endereco: '/input-textarea', icone: 'alert'}
   ]; 
   
   //public appPages = [

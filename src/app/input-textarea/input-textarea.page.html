@@ -1,0 +1,78 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Exemplo Input e TextArea 
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <h3>Exemplos Input</h3>
+
+  <ion-input></ion-input>
+
+  <ion-input value="valor padrão..."></ion-input>
+
+  <ion-input placeholder="Digite aqui"></ion-input>
+
+  <ion-input clearInput value="Digite aqui..."></ion-input>
+
+  <ion-input type="password" value="1234"></ion-input>
+
+  <ion-input disabled value="Desabilitado"></ion-input>
+
+  <ion-input readonly value="Apenas leitura"></ion-input>
+
+  <ion-item>
+    <ion-label>Rótulo Padrão</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Rótulo Dinâmico</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="fixed">Rótulo Fixo</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Rótulo Estático</ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+  <h3>Exemplos TextArea</h3>
+
+  <ion-textarea></ion-textarea>
+
+  <ion-item>
+    <ion-textarea placeholder="Digite aqui..."></ion-textarea>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Descrição</ion-label>
+    <ion-textarea></ion-textarea>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="stacked">Resumo...</ion-label>
+    <ion-textarea></ion-textarea>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Comentários</ion-label>
+    <ion-textarea ClearOnEdit="true"></ion-textarea>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Anotações</ion-label>
+    <ion-textarea rows="6" cols="10" placeholder="utilize este espaço para anotações"></ion-textarea>
+  </ion-item>
+ 
+</ion-content>

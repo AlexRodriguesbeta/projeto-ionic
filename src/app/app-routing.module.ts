@@ -61,6 +61,10 @@ const routes: Routes = [
   { 
     path: 'fab', 
     loadChildren: './fab/fab.module#FabPageModule' 
+  },
+  { 
+    path: 'input-textarea', 
+    loadChildren: './input-textarea/input-textarea.module#InputTextareaPageModule' 
   }
 ];
 
