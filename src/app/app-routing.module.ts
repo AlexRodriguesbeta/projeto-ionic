@@ -53,6 +53,10 @@ const routes: Routes = [
   { 
     path: 'check-radio',
      loadChildren: './check-radio/check-radio.module#CheckRadioPageModule'
+  },
+  { 
+    path: 'datetime', 
+    loadChildren: './datetime/datetime.module#DatetimePageModule'
   }
 ];
 

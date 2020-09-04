@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Exemplo DateTime
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-item>
+    <ion-label>Data padrão</ion-label>
+    <ion-datetime></ion-datetime>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Data personalizada</ion-label>
+    <ion-datetime display-format="DD/MM/YYYY"></ion-datetime>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Data personalizada</ion-label>
+    <ion-datetime picker-format="MM YYYY"></ion-datetime>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Data personalizada</ion-label>
+    <ion-datetime display-format="DD/MMMM/YYYY" min="2015" max="2020-11-30"></ion-datetime>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Data Hora</ion-label>
+    <ion-datetime display-format="D MMM YYYY HH:mm"></ion-datetime>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Hora (AM/PM)</ion-label>
+    <ion-datetime display-format="hh:mm A" minuteValues="0,5,10,15,20,25,30,35,40,45,50,55"></ion-datetime>
+  </ion-item>
+
+</ion-content>
