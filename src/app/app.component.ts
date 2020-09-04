@@ -20,7 +20,8 @@ export class AppComponent {
     {titulo: 'Ex. Alerts',  endereco: '/alert', icone: 'albums'},
     {titulo: 'Buttons',  endereco: '/buttons', icone: 'alert'},
     {titulo: 'CheckBox/RadioButton',  endereco: '/check-radio', icone: 'alert'},
-    {titulo: 'DateTime',  endereco: '/datetime', icone: 'alert'}
+    {titulo: 'DateTime',  endereco: '/datetime', icone: 'alert'},
+    {titulo: 'fab',  endereco: '/fab', icone: 'alert'}
   ]; 
   
   //public appPages = [

@@ -57,6 +57,10 @@ const routes: Routes = [
   { 
     path: 'datetime', 
     loadChildren: './datetime/datetime.module#DatetimePageModule'
+  },
+  { 
+    path: 'fab', 
+    loadChildren: './fab/fab.module#FabPageModule' 
   }
 ];
 
