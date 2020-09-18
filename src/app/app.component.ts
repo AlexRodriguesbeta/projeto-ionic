@@ -23,7 +23,8 @@ export class AppComponent {
     {titulo: 'DateTime',  endereco: '/datetime', icone: 'alert'},
     {titulo: 'Fab',  endereco: '/fab', icone: 'alert'},
     {titulo: 'Input-textArea',  endereco: '/input-textarea', icone: 'alert'},
-    {titulo: 'Loading',  endereco: '/loading', icone: 'alert'}
+    {titulo: 'Loading',  endereco: '/loading', icone: 'alert'}, 
+    {titulo: 'Slides',  endereco: '/slides', icone: 'albums'}
   ]; 
   
   //public appPages = [

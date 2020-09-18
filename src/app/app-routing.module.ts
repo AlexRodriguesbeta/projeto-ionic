@@ -69,7 +69,12 @@ const routes: Routes = [
   { 
     path: 'loading', 
     loadChildren: './loading/loading.module#LoadingPageModule'
+  },
+  { 
+    path: 'slides', 
+    loadChildren: './slides/slides.module#SlidesPageModule' 
   }
+
 ];
 
 @NgModule({

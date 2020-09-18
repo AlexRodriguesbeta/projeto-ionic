@@ -24,7 +24,7 @@ export class LoadingPage implements OnInit {
 
   async exibeLoadingCustomizadoHide(TipoSpinner : String){
     let loading = await this.aguardeCtrl.create({
-      spinner : TipoSpinner,  
+      //spinner : TipoSpinner,  
       message : "Processando...",
       duration: 2000
     }); 
