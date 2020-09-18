@@ -65,6 +65,10 @@ const routes: Routes = [
   { 
     path: 'input-textarea', 
     loadChildren: './input-textarea/input-textarea.module#InputTextareaPageModule' 
+  },
+  { 
+    path: 'loading', 
+    loadChildren: './loading/loading.module#LoadingPageModule'
   }
 ];
 

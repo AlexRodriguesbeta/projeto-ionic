@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Exemplo Loading 
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-button expand="block" (click)="exibeLoadingPadrao()">Loading Padrão</ion-button>
+  <ion-button expand="block" (click)="exibeLoadingCustomizadoHide('null')">Loading Hide</ion-button>
+  <ion-button expand="block" (click)="exibeLoadingCustomizadoHide('lines')">Loading Lines</ion-button>
+  <ion-button expand="block" (click)="exibeLoadingCustomizadoHide('lines-small')">Loading LinesSmall</ion-button>
+  <ion-button expand="block" (click)="exibeLoadingCustomizadoHide('dots')">Loading Dots</ion-button>
+  <ion-button expand="block" (click)="exibeLoadingCustomizadoHide('bubbles')">Loading Bubbles</ion-button>
+  <ion-button expand="block" (click)="exibeLoadingCustomizadoHide('circles')">Loading Circles</ion-button>
+
+  <ion-button expand="block" (click)="exibeLoadingAPI()">Loading API</ion-button>
+
+</ion-content>
