@@ -81,8 +81,11 @@ const routes: Routes = [
   { 
     path: 'modal-interno', 
     loadChildren: './modal-interno/modal-interno.module#ModalInternoPageModule' 
+  },
+  { 
+    path: 'popover', 
+    loadChildren: './popover/popover.module#PopoverPageModule' 
   }
-
 
 
 ];

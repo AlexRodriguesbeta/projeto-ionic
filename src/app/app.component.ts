@@ -25,7 +25,8 @@ export class AppComponent {
     {titulo: 'Input-textArea',  endereco: '/input-textarea', icone: 'alert'},
     {titulo: 'Loading',  endereco: '/loading', icone: 'alert'}, 
     {titulo: 'Slides',  endereco: '/slides', icone: 'albums'}, 
-    {titulo: 'Modal',  endereco: '/modal', icone: 'albums'}
+    {titulo: 'Modal',  endereco: '/modal', icone: 'albums'},
+    {titulo: 'Popover',  endereco: '/popover', icone: 'albums'}
 
   ]; 
   
