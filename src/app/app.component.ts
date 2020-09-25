@@ -24,7 +24,9 @@ export class AppComponent {
     {titulo: 'Fab',  endereco: '/fab', icone: 'alert'},
     {titulo: 'Input-textArea',  endereco: '/input-textarea', icone: 'alert'},
     {titulo: 'Loading',  endereco: '/loading', icone: 'alert'}, 
-    {titulo: 'Slides',  endereco: '/slides', icone: 'albums'}
+    {titulo: 'Slides',  endereco: '/slides', icone: 'albums'}, 
+    {titulo: 'Modal',  endereco: '/modal', icone: 'albums'}
+
   ]; 
   
   //public appPages = [

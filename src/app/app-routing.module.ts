@@ -73,7 +73,17 @@ const routes: Routes = [
   { 
     path: 'slides', 
     loadChildren: './slides/slides.module#SlidesPageModule' 
+  },
+  { 
+    path: 'modal',
+     loadChildren: './modal/modal.module#ModalPageModule' 
+  },
+  { 
+    path: 'modal-interno', 
+    loadChildren: './modal-interno/modal-interno.module#ModalInternoPageModule' 
   }
+
+
 
 ];
 
