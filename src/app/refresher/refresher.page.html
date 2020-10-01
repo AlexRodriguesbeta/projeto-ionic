@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>
+      Exemplo Refresher
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-refresher slot="fixed" (ionRefresh)="atualizarMensagem($event)" >
+    <ion-refresher-content 
+    pullingIcon="refresh-circle" 
+    pullingText="Deslize para atualizar"
+    refreshSpinner="circles"
+    refreshingText="Atualizando..."
+    >  
+    </ion-refresher-content>
+  </ion-refresher>
+
+  <h2>Curso de introdução ao ionic</h2>
+  {{mensagem}}
+</ion-content>

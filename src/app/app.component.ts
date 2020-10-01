@@ -26,7 +26,8 @@ export class AppComponent {
     {titulo: 'Loading',  endereco: '/loading', icone: 'alert'}, 
     {titulo: 'Slides',  endereco: '/slides', icone: 'albums'}, 
     {titulo: 'Modal',  endereco: '/modal', icone: 'albums'},
-    {titulo: 'Popover',  endereco: '/popover', icone: 'albums'}
+    {titulo: 'Popover',  endereco: '/popover', icone: 'albums'},
+    {titulo: 'Refresher',  endereco: '/refresher', icone: 'albums'}
 
   ]; 
   

@@ -85,9 +85,12 @@ const routes: Routes = [
   { 
     path: 'popover', 
     loadChildren: './popover/popover.module#PopoverPageModule' 
+  },
+  { 
+    path: 'refresher', 
+    loadChildren: './refresher/refresher.module#RefresherPageModule' 
   }
-
-
+  
 ];
 
 @NgModule({
