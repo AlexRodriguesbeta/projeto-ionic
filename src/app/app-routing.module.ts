@@ -89,8 +89,12 @@ const routes: Routes = [
   { 
     path: 'refresher', 
     loadChildren: './refresher/refresher.module#RefresherPageModule' 
+  },
+  { 
+    path: 'searchbar', 
+    loadChildren: './searchbar/searchbar.module#SearchbarPageModule' 
   }
-  
+
 ];
 
 @NgModule({
